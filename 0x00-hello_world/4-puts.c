@@ -1,5 +1,4 @@
 #include <stdio.h>
-#prints to screen#
 
 int main(void)
 {
