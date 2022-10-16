@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
+
 /**
  *  main - Entry point
  *  Description: 'negative or not'
@@ -9,7 +11,6 @@
 int main(void)
 {
 	int n;
-	int RAND_MAX = 32767;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
