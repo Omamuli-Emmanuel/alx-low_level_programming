@@ -4,20 +4,19 @@
 
 /**
  * main - Entry point
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int i;
+	int g;
 
-	for (i = 0; i < 10; i++)
+	for (g = 0; g <= '9'; g++)
 	{
-		printf("%d", i);
+		putchar(g);
 	}
 
-	printf("\n");
+	putchar('\n');
 
-	return (0);
-
+	return(0);
 }
