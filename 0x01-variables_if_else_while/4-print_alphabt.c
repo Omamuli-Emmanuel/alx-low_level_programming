@@ -9,14 +9,14 @@
 
 int main(void)
 {
-	char leet, c, d;
+	char leet, e, q;
 
-	c = 'c';
-	d = 'd';
+	e = 'e';
+	q = 'q';
 
 	for (leet = 'a'; leet <= 'z'; leet++)
 	{
-		if (leet != c && leet != d)
+		if (leet != e && leet != q)
 		{
 			putchar (leet);
 		}
