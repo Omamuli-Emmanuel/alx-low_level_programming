@@ -4,19 +4,18 @@
 
 /**
  * main - Entry point
- * Return: Always 0 (Success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	int g;
+	char leet;
 
-	for (g = 0; g <= '9'; g++)
+	for (leet = 'z'; leet <= 'a'; leet--)
 	{
-		putchar(g);
+		putchar(leet);
+		putchar('\n');
 	}
-
-	putchar('\n');
 
 	return (0);
 }
